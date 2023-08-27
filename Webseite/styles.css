@@ -1,0 +1,164 @@
+/* Definiert globale Variablen für Farben, Schriftarten und Größen */
+:root {
+    --bg-color: #898989;
+    --nav-color: #2d9339;
+    --th-bg-color: #2d9339;
+    --border-color: #000000;
+    --main-font: Arial, sans-serif;
+    --main-font-size: 18px;
+}
+
+/* Grundlegende Stile für den Body-Tag */
+body {
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: left;
+}
+
+/* Gemeinsame Stile für Header, Navigation, Hauptinhalt, Tabellencontainer und Footer */
+header,
+nav.navbar,
+main,
+.table-container,
+footer {
+    padding: 1em;
+    margin: 50px;
+    text-align: center;
+}
+
+/* Spezifische Stile für Header und Footer */
+header,
+footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Stile für die Navigationsleiste */
+nav.navbar {
+    background-color: var(--nav-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Stile für den Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Stile für den Tabellencontainer */
+.table-container {
+    width: 55%;
+    margin: 10px auto;
+}
+
+/* Allgemeine Tabellenstile */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--main-font-size);
+    text-align: center;
+}
+
+/* Hover-Effekt für Tabellenzeilen */
+table tr:hover {
+    background-color: #2d93395b;
+}
+
+/* Spaltenbreite für spezifische Tabellen */
+#emissionsTable th,
+#emissionsTable td,
+#emissionsTable2 th,
+#emissionsTable2 td {
+    width: 50%;
+}
+
+/* Allgemeine Stile für Tabellenzellen und -köpfe */
+th,
+td {
+    border: 2px solid var(--border-color);
+    padding: 8px;
+}
+
+/* Stile für Tabellenköpfe */
+th {
+    background-color: var(--th-bg-color);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Stile für Texteingabefelder */
+input[type=text] {
+    width: 90%;
+    padding: 12px;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+/* Stile für das Logo */
+#logo {
+    height: 150px;
+}
+
+/* Textausrichtung und Breite für Hauptinhalt */
+main p,
+main h1,
+main h2,
+main h3,
+main h4 {
+    text-align: justify;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Abstand unter Absätzen im Hauptinhalt */
+main p {
+    margin-bottom: 3em;
+}
+
+
+/* Flexbox-Stile für den Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Schriftgröße für den Haupttitel im Header */
+header h1 {
+    font-size: 48px;
+}
+
+/* Stile für Sucheingabefelder */
+#searchInputCountry,
+#searchInputCompany {
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flexbox-Stile für die Navigationsleiste */
+.navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+}
+
+/* Rechtsausrichtung der Navigationsleiste für bestimmte Sprachen */
+html[lang="ar"] .navbar-nav,
+html[lang="he"] .navbar-nav,
+html[lang="fa"] .navbar-nav,
+html[lang="ur"] .navbar-nav,
+html[lang="yi"] .navbar-nav,
+html[lang="ps"] .navbar-nav,
+html[lang="dv"] .navbar-nav,
+html[lang="sd"] .navbar-nav {
+    justify-content: flex-end;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Meta-Informationen und Zeichensatz -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Seitentitel -->
+    <title>CO<sub>2</sub> Footprint Checker</title>
+
+    <!-- Einbindung von Bootstrap und eigenen Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Einbindung von jQuery und eigenen Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <!-- Header-Bereich mit Logo und Titel -->
+    <header>
+        <img src="logo.png" alt="Logo von CO2 Fußabdruck" id="logo" class="img-fluid">
+        <h1>CO<sub>2</sub> Footprint Checker</h1>
+    </header>
+
+    <!-- Navigationsbereich -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#section1">CO<sub>2</sub> Allgemeine Informationen</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section2">Emissionen nach Ländern</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section3">Emissionen nach Firmen</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hauptinhalt der Seite -->
+    <main>
+        <!-- Abschnitt 1: Allgemeine Informationen zu CO2 -->
+        <section id="section1">
+            <h2>Was ist der CO<sub>2</sub>-Fußabdruck und warum ist er wichtig?</h2>
+            <p>
+                Der <b>CO<sub>2</sub>-Fußabdruck</b>, auch bekannt als Kohlenstoff-Fußabdruck, ist eine Metrik, die dazu
+                dient, die Menge an Treibhausgasen, insbesondere Kohlendioxid (CO<sub>2</sub>), zu quantifizieren, die
+                direkt oder indirekt durch eine Aktivität, ein Individuum, eine Organisation, eine Gemeinschaft oder ein
+                Produkt verursacht werden. Diese Emissionen können aus einer Vielzahl von Quellen stammen, darunter der
+                Verbrennung fossiler Brennstoffe für Energie und Transport, industrielle Prozesse, die Produktion und
+                der Verbrauch von Lebensmitteln, und sogar die Art und Weise, wie wir unsere Häuser heizen und
+                kühlen.<br><br>
+
+                Der CO<sub>2</sub>-Fußabdruck ist ein wichtiges Konzept, da er uns hilft, die Auswirkungen unserer
+                Handlungen auf das Klima zu verstehen und zu quantifizieren. Durch die Messung unseres
+                CO<sub>2</sub>-Fußabdrucks können wir besser verstehen, wo unsere größten Emissionen entstehen und wo
+                wir Änderungen vornehmen können, um diese zu reduzieren.
+
+            </p>
+
+            <h2>Wie wird der CO<sub>2</sub>-Ausstoß gemessen?</h2>
+            <p>
+                Die <b>Messung</b> des CO<sub>2</sub>-Ausstoßes ist ein komplexer Prozess, der verschiedene Methoden und
+                Technologien erfordert. Es gibt im Wesentlichen zwei Hauptansätze zur Messung von
+                CO<sub>2</sub>-Emissionen:
+                <b>DirekteMessungen</b> und <b>indirekte Berechnungen</b>.<br><br>
+
+                <b>Direkte Messungen</b> von CO<sub>2</sub>-Emissionen werden typischerweise in industriellen oder
+                Laborumgebungen durchgeführt, wo Emissionen direkt aus einer Quelle, wie einem Schornstein oder Auspuff,
+                gemessen werden können. Diese Messungen werden oft mit spezialisierten Geräten durchgeführt, die in der
+                Lage sind, die Konzentration von CO<sub>2</sub> in einem Gasstrom zu messen. Einige dieser Geräte nutzen
+                Infrarot- oder
+                Laser-Technologie, um die spezifischen Eigenschaften von CO<sub>2</sub>-Molekülen zu erkennen und ihre
+                Konzentration zu bestimmen.<br><br>
+
+                <b>Indirekte Berechnungen</b> von CO<sub>2</sub>-Emissionen werden häufiger in großem Maßstab verwendet,
+                zum Beispiel um die Emissionen eines ganzen Landes oder einer Branche zu berechnen. Diese Berechnungen
+                basieren auf Aktivitätsdaten, wie der Menge an verbrannten fossilen Brennstoffen, und Emissionsfaktoren,
+                die die durchschnittlichen Emissionen pro Einheit der Aktivität darstellen. Diese Daten werden dann
+                zusammengeführt, um eine Schätzung der Gesamtemissionen zu erstellen.
+            </p>
+
+            <h2>Wie können Einzelpersonen und Unternehmen ihren CO<sub>2</sub>-Fußabdruck reduzieren?</h2>
+            <p>
+                Es gibt viele Möglichkeiten, wie sowohl Einzelpersonen als auch Unternehmen ihren
+                CO<sub>2</sub>-Fußabdruck reduzieren können. Hier sind einige Strategien:<br><br>
+
+                <b>Energieeffizienz verbessern:</b> Dies kann so einfach sein wie das Ausschalten von Lichtern, wenn sie
+                nicht benötigt werden, oder so komplex wie die Durchführung von Energieaudits und die Implementierung
+                von Energieeffizienz-Upgrades in Gebäuden und Anlagen.<br><br>
+
+                <b>Erneuerbare Energien nutzen:</b> Die Umstellung auf erneuerbare Energien, wie Wind- oder
+                Solarenergie, kann erheblich zur Reduzierung des CO<sub>2</sub>-Fußabdrucks beitragen. Für
+                Einzelpersonen könnte dies bedeuten, Solarpanels auf ihrem Haus zu installieren, während Unternehmen in
+                großem Maßstab erneuerbare Energien kaufen oder erzeugen könnten.<br><br>
+
+                <b>Nachhaltige Transportmittel nutzen:</b> Dies könnte bedeuten, öfter zu Fuß zu gehen, das Fahrrad zu
+                nehmen, öffentliche Verkehrsmittel zu nutzen oder ein Elektroauto zu fahren. Unternehmen könnten auch
+                ihre Flotten auf Elektrofahrzeuge umstellen oder Anreize für Mitarbeiter schaffen, um nachhaltigere
+                Transportmittel zu nutzen.<br><br>
+
+                <b>Verbrauch reduzieren:</b> Dies könnte bedeuten, weniger zu kaufen und mehr zu recyceln, oder es
+                könnte bedeuten, nachhaltigere Produkte und Dienstleistungen zu wählen. Unternehmen könnten ihre
+                Verpackung reduzieren oder nachhaltigere Materialien in ihren Produkten verwenden.<br><br>
+
+                <b>CO<sub>2</sub>-Kompensationen kaufen:</b> Dies ist eine Möglichkeit, die Emissionen, die nicht
+                vermieden werden können, auszugleichen. CO<sub>2</sub>-Kompensationen sind Beiträge zu Projekten, die
+                Treibhausgase reduzieren oder entfernen, wie Baumpflanzungen oder erneuerbare Energieprojekte.<br><br>
+
+                <b>Bildung und Bewusstsein:</b> Es ist wichtig, sich über den Klimawandel und die Auswirkungen unserer
+                Handlungen auf die Umwelt zu informieren. Unternehmen können Schulungen und Ressourcen für ihre
+                Mitarbeiter bereitstellen, um ihnen zu helfen, nachhaltigere Entscheidungen zu treffen.
+            </p>
+
+            <h2>Auswirkungen von CO<sub>2</sub> auf die Umwelt und den Klimawandel.</h2>
+            <p>
+                <b>Kohlendioxid (CO<sub>2</sub>)</b> ist eines der wichtigsten Treibhausgase, die zur globalen Erwärmung
+                und zum Klimawandel beitragen. Es hat mehrere Auswirkungen auf die Umwelt und den Klimawandel:<br><br>
+                <b>Erhöhung der globalen Temperaturen:</b> CO<sub>2</sub> trägt zur Erderwärmung bei, indem es die Wärme
+                in der Atmosphäre einfängt. Dies führt zu einer Erhöhung der globalen Durchschnittstemperaturen, einem
+                Phänomen, das allgemein als globale Erwärmung bekannt ist.<br><br>
+
+                <b>Veränderung der Wettermuster:</b> Die Erhöhung der globalen Temperaturen kann zu Veränderungen in
+                Wetter- und Klimamustern führen, einschließlich häufigerer und intensiverer Hitzeperioden, Dürren,
+                Stürme und Überschwemmungen.<br><br>
+
+                <b>Meeresspiegelanstieg:</b> Die globale Erwärmung führt zur Schmelze der Polarkappen und Gletscher, was
+                zu einem Anstieg des Meeresspiegels führt. Dies kann Küstengebiete und Inseln bedrohen und zu
+                erheblichen Verlusten von Lebensraum und Infrastruktur führen.<br><br>
+
+                <b>Versauerung der Ozeane:</b> CO<sub>2</sub> wird von den Ozeanen aufgenommen, was zu einer Erhöhung
+                der Säuregehalte führt, ein Phänomen, das als Ozeanversauerung bekannt ist. Dies kann schädliche
+                Auswirkungen auf Meereslebewesen haben, insbesondere auf solche, die für ihre Überlebensfähigkeit auf
+                Kalkschalen oder -skelette angewiesen sind, wie Korallen und Muscheln.<br><br>
+
+                <b>Auswirkungen auf die Pflanzenwelt und die Tierwelt:</b> Veränderungen in Temperatur und Wetter können
+                die Lebensräume von Pflanzen und Tieren beeinflussen und zu Verschiebungen in den Migrationsmustern und
+                dem Verlust von Biodiversität führen.<br><br>
+
+                <b>Menschliche Gesundheit und Wohlbefinden:</b> Neben den direkten Auswirkungen auf die Umwelt kann der
+                Klimawandel auch erhebliche Auswirkungen auf die menschliche Gesundheit und das Wohlbefinden haben,
+                einschließlich einer erhöhten Belastung durch Hitzestress und klimabedingte Krankheiten, Verlust von
+                Lebensmittelsicherheit und Wasserversorgung und erhöhtem Risiko von Konflikten und Migration.
+            </p>
+
+            <h2>Maßnahmen, die von verschiedenen Ländern ergriffen werden, um den CO<sub>2</sub>-Ausstoß zu reduzieren.
+            </h2>
+            <p>Verschiedene Länder auf der ganzen Welt ergreifen Maßnahmen, um ihren CO<sub>2</sub>-Ausstoß zu
+                reduzieren und den
+                Klimawandel zu bekämpfen. Hier sind einige Beispiele:<br><br>
+
+                <b>Erneuerbare Energien:</b> Viele Länder investieren in erneuerbare Energien wie Wind, Sonne und
+                Wasser, um ihre Abhängigkeit von fossilen Brennstoffen zu verringern. Zum Beispiel hat Dänemark eines
+                der ehrgeizigsten Ziele für erneuerbare Energien und plant, bis 2050 kohlenstoffneutral zu sein.<br><br>
+
+                <b>Energieeffizienz:</b> Länder wie Deutschland und Japan haben strenge Standards für Energieeffizienz
+                eingeführt, die dazu beitragen, den Energieverbrauch in Gebäuden, Fahrzeugen und Industrieanlagen zu
+                reduzieren.<br><br>
+
+                <b>CO<sub>2</sub>-Steuer und Emissionshandel:</b> Einige Länder, darunter Schweden und Kanada, haben
+                CO<sub>2</sub>-Steuern
+                eingeführt, um Unternehmen dazu zu ermutigen, ihre Emissionen zu reduzieren. Die Europäische Union hat
+                ein Emissionshandelssystem eingerichtet, das Unternehmen dazu verpflichtet, für ihre Emissionen zu
+                zahlen.<br><br>
+
+                <b>Aufforstung und Schutz der Wälder:</b> Länder wie Brasilien und Indonesien haben Programme zur
+                Aufforstung und zum Schutz der Wälder eingeführt, die eine wichtige Rolle bei der Absorption von
+                CO<sub>2</sub> aus
+                der Atmosphäre spielen.<br><br>
+
+                <b>Förderung von Elektrofahrzeugen:</b> Länder wie Norwegen und China fördern den Einsatz von
+                Elektrofahrzeugen durch Subventionen und Steueranreize, um die Emissionen aus dem Verkehrssektor zu
+                reduzieren.<br><br>
+
+                <b>Forschung und Entwicklung:</b> Viele Länder investieren in Forschung und Entwicklung, um neue
+                Technologien zur Reduzierung von CO<sub>2</sub>-Emissionen zu entwickeln, wie zum Beispiel
+                Kohlenstoffabscheidung
+                und -speicherung.
+            </p>
+        </section>
+
+        <!-- Abschnitt 2: Emissionen nach Ländern -->
+        <section id="section2">
+            <h2><b>CO<sub>2</sub> Emissions-Tabellen</b><br></h2>
+            <h2>Emissionen nach Ländern</h2>
+            <p>Hier finden Sie Informationen zu den CO<sub>2</sub>-Emissionen nach Ländern:</p>
+            <input type="text" id="searchInputCountry" placeholder="Suche nach Ländern:">
+            <div class="table-container">
+                <table id="emissionsTable">
+                    <tr>
+                        <th>Land</th>
+                        <th>CO<sub>2</sub> Emissionen</th>
+                    </tr>
+                    <tr>
+                        <td>Deutschland</td>
+                        <td>900</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>China</td>
+                        <td>10000</td>
+                    </tr>
+                    <tr>
+                        <td>Kanada</td>
+                        <td>1600</td>
+                    </tr>
+                    <tr>
+                        <td>Australien</td>
+                        <td>1100</td>
+                    </tr>
+                    <tr>
+                        <td>Russland</td>
+                        <td>1700</td>
+                    </tr>
+                    <tr>
+                        <td>Japan</td>
+                        <td>800</td>
+                    </tr>
+                </table>
+            </div>
+            <p><br>Die größten Emittenten sind in der Regel Länder mit großer Industrie und hoher Bevölkerungszahl.
+
+                Die CO2-Emissionen von Ländern variieren stark, abhängig von einer Vielzahl von Faktoren. Dazu gehören
+                die Größe und Struktur der Wirtschaft, der Grad der Industrialisierung, die Energiepolitik, die
+                Bevölkerungsdichte und der Lebensstil der Menschen. In einigen Ländern sind die Emissionen pro Kopf
+                hoch, weil dort viel Energie aus fossilen Brennstoffen verwendet wird. In anderen Ländern sind die
+                Emissionen pro Kopf niedrig, weil dort viel erneuerbare Energie genutzt wird oder weil die Wirtschaft
+                weniger energieintensiv ist.<br>
+
+                Die Verringerung der CO2-Emissionen ist eine globale Herausforderung, die sowohl nationale als auch
+                internationale Anstrengungen erfordert. Es wird erwartet, dass sich die Länder im Rahmen des Pariser
+                Abkommens zu einer Reduzierung ihrer Emissionen verpflichten. Darüber hinaus sind technologische
+                Innovationen und die Umstellung auf erneuerbare Energien Schlüsselstrategien zur Reduzierung der
+                CO2-Emissionen.<br>
+
+                Obwohl es Fortschritte gibt, ist es klar, dass die globalen Anstrengungen zur Reduzierung der
+                CO2-Emissionen verstärkt werden müssen. Es ist wichtig, dass alle Länder, insbesondere die größten
+                Emittenten, ihre Anstrengungen zur Reduzierung der Emissionen und zur Umstellung auf eine nachhaltigere
+                Energieproduktion intensivieren.</p><br>
+        </section>
+
+        <!-- Abschnitt 3: Emissionen nach Firmen -->
+        <section id="section3">
+            <h2>Emissionen nach Firmen</h2>
+            <p>Hier finden Sie Informationen zu den CO<sub>2</sub>-Emissionen nach Firmen:</p>
+            <input type="text" id="searchInputCompany" placeholder="Suche nach Unternehmen:">
+            <div class="table-container">
+                <table id="emissionsTable2">
+                    <tr>
+                        <th>Unternehmen</th>
+                        <th>CO<sub>2</sub> Emissionen</th>
+
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon</td>
+                        <td>2500</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>1100</td>
+                    </tr>
+                    <tr>
+                        <td>Netflix</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>McDonald"s</td>
+                        <td>2800</td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                <br>Unternehmen spielen eine zentrale Rolle in der globalen CO2-Emissionsbilanz. Sie sind sowohl Quelle
+                als
+                auch potenzielle Lösung für das Problem des Klimawandels. Durch ihre Geschäftspraktiken und
+                Produktionsprozesse können Unternehmen erhebliche Mengen an CO2 und anderen Treibhausgasen
+                ausstoßen.<br>
+
+                CO2-Emissionen sind eng mit der Verwendung fossiler Brennstoffe verbunden. Beispielsweise entsteht CO2,
+                wenn Kohle, Erdöl oder Erdgas verbrannt werden, um Energie zu erzeugen. Dies geschieht in vielen
+                industriellen Prozessen, im Verkehr, in der Gebäudeheizung und bei der Stromerzeugung. Unternehmen, die
+                in diesen Sektoren tätig sind, sind häufig hohe Emittenten von CO2.<br>
+
+                Einige Branchen sind besonders für hohe CO2-Emissionen verantwortlich. Die Energieindustrie,
+                einschließlich der Stromerzeugung, ist ein großer Verursacher, ebenso die Schwerindustrie (z.B. Stahl-
+                und Zementherstellung), die Landwirtschaft und der Verkehrssektor.<br>
+
+                Die CO2-Emissionen eines Unternehmens können jedoch auch indirekt sein. Dies bedeutet, dass sie nicht
+                unmittelbar aus den eigenen Geschäftspraktiken resultieren, sondern aus den Aktivitäten entlang der
+                gesamten Wertschöpfungskette. Beispielsweise können sie aus der Produktion und dem Transport der
+                Materialien entstehen, die ein Unternehmen für seine Produkte verwendet.<br>
+
+                Zum Glück gibt es viele Möglichkeiten, wie Unternehmen ihre CO2-Emissionen reduzieren können. Dies
+                reicht von Energieeffizienzmaßnahmen über den Einsatz erneuerbarer Energien bis hin zur Anwendung von
+                Kohlenstoffabscheidungs- und Speichertechnologien. Es gibt auch Ansätze zur Förderung einer
+                Kreislaufwirtschaft, in der Materialien und Ressourcen so lange wie möglich im Wirtschaftskreislauf
+                gehalten werden, um Abfall und Emissionen zu minimieren.<br>
+
+                Gleichzeitig sind Unternehmen nicht nur aus ökologischen, sondern auch aus wirtschaftlichen Gründen
+                motiviert, ihre CO2-Emissionen zu reduzieren. Kunden, Investoren und Regulierungsbehörden fordern
+                zunehmend, dass Unternehmen ihre Umweltauswirkungen offenlegen und minimieren. So werden Unternehmen,
+                die ihre Emissionen reduzieren und ihre Nachhaltigkeitsleistung verbessern, oft mit erhöhter
+                Marktattraktivität, Zugang zu grünen Finanzierungsquellen und einem verbesserten Risikomanagement
+                belohnt.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer mit Datenschutz und Impressum -->
+    <footer>
+        <p>Datenschutzbestimmung | Impressum</p>
+    </footer>
+</body>
+
+</html>
